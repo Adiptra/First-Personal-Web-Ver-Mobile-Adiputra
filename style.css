@@ -1,0 +1,100 @@
+* {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #f4f3f3;
+    display: flex;
+    height: 10vh;
+}
+
+nav .left-side {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+}
+nav .left-side {
+    padding-left: 90px;
+}
+
+nav .left-side ul {
+    display: inline;
+}
+
+nav .left-side ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+nav .left-side a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+nav .left-side .list-active {
+    color: #ec4d37;
+    font-weight: 700;
+}
+nav .right-side {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+
+nav .right-side a {
+    font-size: 30px;
+    padding: 20px 30px;
+    background-color: #ec4d37;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*card-Personal*/
+/*max vh 100 */
+.container-card {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-card-and-right-content {
+    display: flex;
+    width: 100%;
+}
+
+.card-personal {
+    flex: 100%
+}
+
+.right-content {
+    flex: 100%;
+    padding-left: 25px;
+    font-size:30px;
+}
+
+.right-content p {
+    color: grey;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.container-ability {
+    display: flex;
+    font-size: 20px;
+}
+
+.container-ability div {
+    padding-right: 20px;
+}

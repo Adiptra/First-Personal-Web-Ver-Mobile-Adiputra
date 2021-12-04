@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creating Navbar</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="Contact.js"></script>
+    </head>
+    
+    <body>
+        <!--Navbar-->
+        <nav>
+            <div class="left-side">
+                <img src="assets/logo.png">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="blog/blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-side">
+                <a href="contact-me.html">Contact Me</a>
+            </div>
+        </nav>
+        <!--End-Navbar-->
+        <center>
+        <div class="contact-form" style="margin-top: 93px; width: 90%">
+            <form>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <label for="name" style="font-size: 40px;">Name</label>
+                    <input id="name"
+                           style=" font-size: 50px; width: 100%; padding: 10px; margin-top: 7px; border-radius: 5px; background-color: rgb(231, 231, 231); border-color: rgb(231, 231, 231)">
+                </div>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <label for="email" style="font-size: 40px;">Email</label>
+                    <input id="email"
+                           style="font-size: 50px; width: 100%; padding:  10px; margin-top: 7px; border-radius: 5px; background-color: rgb(231, 231, 231); border-color: rgb(231, 231, 231)">
+                </div>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <label for="phone number" style="font-size: 40px;">Phone Number</label>
+                    <input id="phone number"
+                           style="font-size: 50px; width: 100%; padding: 10px; margin-top: 7px; border-radius: 5px; background-color: rgb(231, 231, 231); border-color: rgb(231, 231, 231)">
+                </div>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <label style="font-size: 40px;">Subject</label>
+                        <select id ="Subject" style="font-size: 40px; width: 100%; padding: 10px; margin-top: 7px; border-radius: 5px; background-color: rgb(231, 231, 231); border-color: rgb(231, 231, 231)">
+                            <option style="font-size: 20px;">Contact admin</option>
+                            <option style="font-size: 20px;">Contact Developer</option>
+                            <option style="font-size: 20px;">Report</option>
+                        </select>
+                </div>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <label style="font-size: 40px;">Your Massage</label>
+                    <textarea id="Massage" style="font-size: 20px; width: 100%; padding: 20px; margin-top: 7px; border-radius: 5px; background-color: rgb(231, 231, 231); border-color: rgb(231, 231, 231)"></textarea>
+                </div>
+                <div style="margin-bottom: 15px; text-align: left">
+                    <button type ="button" style="font-size: 40px; border-radius: 10px 20px; background-color: rgb(0, 217, 255); border-color: rgb(0, 217, 255)" onclick="submitForm()">Submit</button>
+                </div>
+            </form>
+            </div>
+            </center>
+        <!--contact-form-->
+
+    </body>
+</html>
